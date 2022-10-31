@@ -1,4 +1,3 @@
-# solution-lab-4.02-vitalik
 Set up
 For these labs, you will need to create two database tables and seed them with some sample data. The database data represents mock clients for a multi-city hospital.
 ![image](https://user-images.githubusercontent.com/10848174/188314562-4ac1de46-cc7f-427a-b727-c9be12649fd2.png)<br>
