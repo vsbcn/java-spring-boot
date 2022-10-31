@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "0989b5b9-f31d-4f7a-8007-2b3770dbfbd2",
+		"name": "4.02 city_hospital EmployeeControllerImp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23020209"
+	},
+	"item": [
+		{
+			"name": "All / doctors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/doctors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "@RequestParam /doctor-by-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/doctor-by-id?id=156545",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"doctor-by-id"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "156545"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "@PathVariable/doctor/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/doctor/156545",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"doctor",
+						"156545"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "@RequestParam /doctors-by-status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/doctors-by-status?status=ON_CALL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"doctors-by-status"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "ON_CALL"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
